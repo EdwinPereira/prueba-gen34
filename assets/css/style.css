@@ -1,5 +1,5 @@
 body {
-background-color: #efefef;
+background-color: #B5B2B2;
 }
 th, td{
     border: 2px solid black;
@@ -53,9 +53,19 @@ footer {
     background-color: #111111;
     color: white;
 }
-.btn{
+.btnCenter{
     text-align: center;
+    color: black;
 }
-button:hover {
-    color: #00913f;
+button:hover{
+    color: skyblue;
+}
+.spotify {
+    width:100%;
+    border: 0;
+}
+.color {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
 }

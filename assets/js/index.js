@@ -1,4 +1,3 @@
-const button = document.getElementById('btn')
-btn.onclick = function () {
-    alert("Hola Mundo")
+function funcion(){
+    alert("¡Hola Mundo!")
 }
