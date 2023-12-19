@@ -1,6 +1,5 @@
 body {
-    background-color: #1c1c1c;
-    color: #f0f0f0;
+background-color: #efefef;
 }
 th, td{
     border: 2px solid black;
@@ -38,8 +37,8 @@ table{
     text-align: center;
 }
 .css{
-    background-color: #cfcfcf;
-    color: black;
+    background-color: #111111;
+    color: white;
 }
 .justi{
     text-align: justify;
@@ -48,12 +47,15 @@ table{
     text-align: center;
 }
 hr{
-    background-color: white;
+    background-color: cadetblue;
 }
 footer {
-    background-color: #cfcfcf;
-    color: black;
+    background-color: #111111;
+    color: white;
 }
-button{
+.btn{
     text-align: center;
+}
+button:hover {
+    color: #00913f;
 }
