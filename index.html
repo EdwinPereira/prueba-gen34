@@ -3,19 +3,28 @@
 
 <head>
     <meta charset="UTF-8"> 
-    <link rel="icon" href="./assets/imágenes/buscar.png">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/imágenes/buscar.png"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
     <title>Ed Freelance</title>
 </head>
 
 <body>
     <header>
         <h1 class="encabezado">Desarrollador Web/Full-Stack <br>Mi Portafolio:</h1>
+         <div class="info">
+            <a href="./index.html">Inicio</a>
+            |
+            <a href="./contacto.html">Contacto</a>
+            |
+            <a href="./acercade.html">Acerca De</a>
+            <h2 class="black">¡Bienvenidos!</h2>
+        </div>
+        <hr>
         <nav>
             <ul style="list-style: none;">
-                <li class="css" id="#Que-ofrezco">¿Qué servicios ofrezco?</li>
-                <li class="css" id="#Servicios">Sevicios que ofrezco</li>
-                <li class="css" id="#TrabajoAreas">Areas de trabajo</li>
+                <li class="css"><ins>¿Qué servicios ofrezco?</ins></li>
+                <li class="css"><ins>Sevicios que ofrezco</ins></li>
+                <li class="css"><ins>Areas de trabajo</ins></li>
             </ul>
         </nav>
     </header>
@@ -43,14 +52,16 @@
                 diversas tecnologías que hoy día tienen gran auge en el apartado web, todo esto
                 totalmente accesible y siempre siguiendo líneamientos estrictos de la más precisa puntualidad
                 utilizando herramientas tales como:</p>
+        <div class="listas">
             <ol>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
             </ol>
+        </div>
         </section>
-
-        <section id="TrabajoAreas">
+        <div class="listas">
+        <section>
             <h2>Areas de trabajo: </h2>
                 <ul>
                 <li>HTML (HyperText Markup Language)</li>
@@ -58,15 +69,16 @@
                 <li>JavaScript (Lenguaje de Programación)</li>
             </ul>
         </section>
+        </div>
         <section>
             <h2 class="encabezado">Desarrolla el esqueleto de tu WebSite:</h2>
-            <div class="img-center"><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"><img src="./assets/imágenes/html5-removebg-preview-html.png" alt="HTML Logo" width="400" height="250"></a></div>
+            <div class="img-center"><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"><img src="http://globalmentoring.com.mx/imagenes/html5.png" alt="Logo HTML5"></a></div>
             <p class="encabezado">Comenzaremos utilizando el lenguaje de marcado, el cuál conocemos originalmente por sus siglas en
                 inglés <a href="https://es.wikipedia.org/wiki/HTML" target="_blank"><strong>HTML</strong></a>, el cuál nos servirá para crear el esqueleto de nuestra
                 WebSite, desarrollar su estructura, sería este el esqueleto de nuestro sitio.</p>
 
             <h2 class="encabezado">¡Tu WebSite con el mejor estilo!</h2>
-            <div class="img-center"><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img src="./assets/imágenes/descarga-removebg-preview-css.png" alt="CSS Logo" width="210" height="300"></a></div>
+            <div class="img-center"><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img src="http://globalmentoring.com.mx/imagenes/css3.png" alt="Logo CSS3"></a></div>
             <p class="encabezado">Daremos paso a darle un toque artístico al esqueleto de nuestra WebSite le daremos una apariencia
                 sombrosa, con el lenguaje de estilos <a href="https://es.wikipedia.org/wiki/CSS" target="_blank"><strong>CSS</strong></a>, por sus siglas en inglés, ahora nuestro
                 sitio web podrá enseñar toda la gama de colores y formas que querramos añadirle, dando paso a ¡Un
@@ -75,8 +87,8 @@
             <h2 class="encabezado">Agrega vida e interactividad a tu WebSite:</h2>
             <!--Explicación del lenguaje de programación JavaScript-->
             <h3 class="encabezado">JavaScript:</h3>
-            <div class="img-center"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src="./assets/imágenes/Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo" width="250"></a></div>
-            <p class="encabezado">Gracias a <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank"><strong>JavaScript</strong></a> el cuál es un <strong>lenguaje de programación</strong> vamos a lograr que tu WebSite adopte
+            <div class="img-center"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank"><img src="http://globalmentoring.com.mx/imagenes/javascript.png" alt="Logo Javascript"></a></div>
+            <p class="encabezado">Gracias a <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank"><strong>JavaScript</strong></a> el cuál es un <b>lenguaje de programación</b> vamos a lograr que tu WebSite adopte
                 vida, que
                 los usuarios puedan interactuar con este y logré ser una experiencia muy satisfactoria para ellos, pues
                 es el
@@ -85,9 +97,9 @@
         </section>
 
         <section>
-            <h2 id="edit">🎨🎨🎨</h2>
+            <h2 id="edit"><mark>🎨🎨🎨</mark></h2>
             <table>
-                <caption><strong>Desarrollo Web-FullStack</strong></caption>
+                    <caption class="listas"><strong><code>Desarrollo Web-FullStack</code></strong></caption>
                 <tr>
                     <th>HTML</th>
                     <th>CSS</th>
@@ -104,16 +116,18 @@
             </table>
         </section>
         <section>
-            <h3 class="color" style="text-align: center;">¡Hola Mundo!🎧</h3>
+            <h2 class="color" style="text-align: center;"><code>¡Hola Mundo!🎧</code></h2>
         <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/artist/7CvWoscqVQJvqb0OcBRQO7?utm_source=generator&theme=0" height="152" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
-        <h3 class="justi">¿En dónde podrás ubicarme?</h3>
+        <div class="justi">
+            <h3>¿En dónde podrás ubicarme?</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.73961650311!2d-75.5812115!3d6.24420345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1702302793982!5m2!1ses!2sco" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         </section>
 
         <footer>
             <hr>
-            <p>&copy;Mi Portafolio 2024<br>&#174;Edwin Pereira</p>
+            <p class="black">&copy;Mi Portafolio 2024<br>&#174;Edwin Pereira</p>
         </footer>
     </main>
 </body>
