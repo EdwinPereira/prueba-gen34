@@ -43,7 +43,7 @@ header{
     background: url(/assets/img/photo_2023-12-30_15-18-34.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 520px;
+    height: 559px;
     object-fit: cover;
     overflow: hidden;
     border-left: 3px solid var(--nblack);
@@ -52,12 +52,10 @@ header{
 .body{
     border: 10px solid var(--red);
     width: 500px;
-    border-radius: 20px 20px;
     height: 500px;
-    background-color: var(--nblack);
+    border-radius: 20px 20px;
     margin: 0 auto;
     margin-bottom: 60px;
-    object-fit: cover;
     overflow: hidden;
     box-shadow: 1px 0px 20px 0px rgba(255,255,255,1);
 }
@@ -153,6 +151,7 @@ h1 span{
     border-top-left-radius: 0;
     padding-bottom: 40px;
     background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
+    line-height: 2;
 }
 .sec2{
     text-align: center;
@@ -180,6 +179,7 @@ h1 span{
     border-top-left-radius: 0;
     padding-bottom: 40px;
     background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
+    line-height: 2;
 }
 .sec3{
     text-align: center;
@@ -208,6 +208,7 @@ h1 span{
     padding-bottom: 40px;
     background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
     object-fit: cover;
+    line-height: 2;
 }
 .img-sec3{
     width: 100%;
@@ -239,6 +240,9 @@ h1 span{
     margin: 0 auto;
     margin-bottom: 30px;
 }
+.hul{
+    font-weight: normal;
+}
 .ol{
     padding-top: 20px;
     list-style: none;
@@ -246,6 +250,7 @@ h1 span{
     margin: 0 auto;
     margin-bottom: 10px;
     border-top: 20px;
+    line-height: 2;
 }
 .sec3{
     text-align: center;
@@ -277,7 +282,7 @@ h1 span{
 }
 .form{
     text-align: center;
-    width: 400px;
+    width: min(400px, 100%);
     margin: auto;
     background-image: url(../img/photo_2023-12-29_21-30-49.jpg);
     margin-top: 20px;
@@ -285,9 +290,26 @@ h1 span{
     border-radius: 50px;
     padding-top: 10px;
 }
+.form fieldset{
+    border-radius: 0 0 50px 50px;
+}
 .formtext{ 
     color: var(--red);
     font-weight: bold;
+
+}
+.input-txt{
+    width: 60%;
+}
+.input-txt-m{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+.formtext-j{
+    color: var(--red);
+    display: flex;
+    padding-left: 20px;
 }
 form h2{
     -webkit-text-stroke: 1px var(--nblack);
@@ -318,27 +340,50 @@ form h2{
     margin-top: 10px;
     color: var(--red);
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 .submit:hover{
 background-color: var(--nblack);
 border-radius: 15px;
 box-shadow: 5px 0 5px 0 var(--white);
 font-family: 'Nosifer', sans-serif;
+cursor: pointer;
 }
-
 .fot{
     margin: 0;
+    padding-top: 30px;
     padding: 0;
     text-align: center;
-    background-color: var(--black);
+    background-color:   var(--black);
     color: var(--white);
 }
+.linef{
+    border-top: 2px solid var(--white);
+}
+.fot-icons{
+    display: flex;
+    justify-content: center;
+}
+.fot-icons a{
+    background-color: var(--white);
+    border-radius: 15px;
+    margin: 3px;
+    color: var(--nblack);
+}
+.fot-icons a:hover{
+    transition: 0.5s;
+    background-color: var(--red);
+}
+.textf2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+}
 .pfot{
-    border-top: 5px solid var(--red);
-    padding-bottom: 80px;
+    border-top: 1px solid var(--white);
+    padding-bottom: 8px;
+    background-color: var(--nblack);
+    color: var(--red);
 }
 
-/* Servicios */
-.servicios{
-    display: grid;
-}
+
