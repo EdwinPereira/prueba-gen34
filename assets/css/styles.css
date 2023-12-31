@@ -133,6 +133,7 @@ h1 span{
     display: block;
     margin: 0 auto;
     margin-bottom: 15px;
+    margin-top: 50px;
 }
 .p-center0{
     border: 2px solid white;
@@ -223,9 +224,10 @@ h1 span{
     justify-content: center;
     padding: 50px;
     text-align: center;
-    width: 500px;
+    width: 430px;
     height: 200px;
     border: 2px solid;
+    border-radius: 15px;
     background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
     margin-bottom: 30px;
 }
@@ -265,12 +267,12 @@ h1 span{
 }
 .music{
     margin-left: 50px;
-    width: 50%;
-    height: 500px;
-    border: 1px solid var(--white);
-    display:block;
+    width: 32%;
+    height: 10em;
+    border: none;
+    display: block;
     margin: 0 auto;
-    margin-bottom: 50px;
+    opacity: 0.9;
 }
 .sec5{
     text-align: center;
@@ -334,17 +336,17 @@ form h2{
     font-weight: normal;
 }
 .submit{
-    color: purple;
-    background-color: pink;
+    color: var(--white);
+    background-color: var(--red);
     font-weight: bold;
     width: 90px;
     height: 30px;
     margin-top: 10px;
-    color: var(--red);
     border-radius: 15px;
     margin-bottom: 10px;
 }
 .submit:hover{
+color: var(--red);
 background-color: var(--nblack);
 border-radius: 15px;
 box-shadow: 5px 0 5px 0 var(--white);
