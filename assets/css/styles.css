@@ -139,8 +139,8 @@ h1 span{
     }
 }
 .nav{
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
     text-align: center;
     background-color: var(--nblack);
     margin: 0 auto;
@@ -149,6 +149,7 @@ h1 span{
     margin-bottom: 21px;
     flex-direction: column;
     box-shadow: 5px 0 5px 0 var(--red);
+    z-index: 1;
 }
 @media (min-width:768px){
     .nav {
