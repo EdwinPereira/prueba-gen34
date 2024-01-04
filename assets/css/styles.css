@@ -286,6 +286,7 @@ img {
 }
 .list{
     text-align: center;
+    font-weight: bold;
     border: 2px solid white;
     background-color: var(--nblack);
     color: var(--nblack);
@@ -303,7 +304,7 @@ img {
     color: var(--nblack);
 }
 .hul{
-    font-weight: normal;
+    font-weight: bold;;
 }
 .ol{
     padding-top: 20px;
