@@ -293,6 +293,12 @@ img {
 .i-leng{
     width: 30px;
     height: 30px;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 20px;
+}
+.i-leng:hover{
+    background-color: var(--nviolet);
     color: var(--nblack);
 }
 .list{
