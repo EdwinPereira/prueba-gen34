@@ -301,7 +301,7 @@ img {
 }
 .hicons {
     vertical-align: text-bottom;
-    color: var(--nblack);
+    color: var(--white);
 }
 .hul{
     font-weight: bold;;
