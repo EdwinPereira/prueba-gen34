@@ -35,6 +35,7 @@ html{
     --grayN3: #CED4DA;
     --green: #008000;
     --body: #2e2e2e;
+    --skull: #e9d8a6;
 }
 body{
     /* background-color: var(--lightBlue);
@@ -430,7 +431,30 @@ cursor: pointer;
     line-height: 30px;
     background-color: var(--black);
 }
-
+.contact-form{
+    position: relative;
+    bottom: 10px;
+    left: 600px;
+    background-color: var(--nblack);
+    border-radius: 30%;
+    opacity: 0.9;
+    width: 13%;
+    padding: 10px 10px;
+}
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    color: var(--skull);
+}
+.contact-button {
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+}
 /* Sobre Mí */
 .sm-font{
     background-color: var(--nblack);
@@ -488,7 +512,20 @@ cursor: pointer;
 /*.SobreMí*/
 
 /*Acerca De*/
-
-
+.img-contain {
+    margin: 50px 0 50px 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.img {
+    width: 20%;
+    height: 20%;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.img:hover {
+    opacity: 1;
+}
 
 /*.Acerca De*/
