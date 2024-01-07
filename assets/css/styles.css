@@ -97,21 +97,6 @@ img {
     opacity: 0.9;
     border-radius: 0%;
 }
-.font {
-    border: 2px solid black;
-    /* margin: 40px 60px 0 60px; */
-    margin: 1px 200px;
-    background-color: var(--nblack);
-    padding: 50px;
-    border-radius: 50px;
-    opacity: 0.8;
-    box-shadow: 0px 0px 30px 1px rgba(255,255,255,1);
-}
-@media (min-width:480px){
-    .font {
-        display: flex;
-    }
-}
 .hlogo{
     display: flex;
     height: 140px;
@@ -131,7 +116,6 @@ img {
 .span{
     font-size: 2rem;
     font-family: 'Deathgrin', cursive;
-    color: var();
 }
 @keyframes background{
     0%{
@@ -175,11 +159,13 @@ img {
 }
 .sec1{
     text-align: center;
-    width: 50%;
+    width: 30%;
+    height: 50%;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 15px;
+    margin: 0 8%;
     margin-top: 50px;
+    margin-bottom: 15px;
+
 }
 .p-center0{
     border: 2px solid white;
@@ -202,12 +188,15 @@ img {
     background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
     background-size: cover;
     line-height: 2;
+    max-width: 100%;
 }
 .sec2{
     text-align: center;
-    width: 50%;
+    width: 30%;
+    height: 50%;
     display: block;
-    margin: 0 auto;
+    margin: 0 38%;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .p-center02{
@@ -231,43 +220,7 @@ img {
     background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
     background-size: cover;
     line-height: 2;
-}
-.sec3{
-    text-align: center;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px 0;
-    background-size: cover;
-}
-.p-center03{
-    border: 2px solid white;
-    background-color: var(--nblack);
-    color: var(--white);
-    border-radius: 15px;
-    padding: 30px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.p-center3{
-    border: 2px solid white;
-    background-color: var(--nblack);
-    color: var(--white);
-    border-radius: 15px;
-    padding: 30px;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    padding-bottom: 40px;
-    background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
-    background-size: cover;
-    background-size: cover;
-    object-fit: cover;
-    line-height: 2;
-}
-.img-sec3{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    max-width: 100%;
 }
 .icons{
     margin: 0 auto;
@@ -276,11 +229,11 @@ img {
     align-items: center;
     padding: 50px;
     text-align: center;
-    width: 430px;
-    height: 350px;
+    width: 30%;
+    height: 100%;
     border: 2px solid;
     border-radius: 15px;
-    background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
+    background-image: url(../img/photo_2023-12-29_21-30-51.jpg);
     background-size: cover;
     margin-bottom: 30px;
     gap: 5px;
@@ -296,6 +249,7 @@ img {
     color: var(--white);
     background-color: var(--red);
     border-radius: 20px;
+    text-align: center;
 }
 .i-leng:hover{
     background-color: var(--nviolet);
@@ -312,8 +266,8 @@ img {
     padding-bottom: 30px;
     background-image: url(../img/photo_2023-12-29_21-30-44.jpg);
     background-size: cover;
-    width: 50%;
-    margin: 0 auto;
+    width: 30%;
+    margin: 0 68%;
     margin-bottom: 30px;
 }
 .hicons {
@@ -321,7 +275,15 @@ img {
     color: var(--white);
 }
 .hul{
-    font-weight: bold;;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 5px;
+    color: var(--white);
+}
+.hh {
+    text-decoration: underline;
+    color: var(--grayN3);
 }
 .ol{
     padding-top: 20px;
@@ -331,10 +293,6 @@ img {
     margin-bottom: 10px;
     border-top: 20px;
     line-height: 2;
-}
-.sec3{
-    text-align: center;
-    margin-bottom: 20px;
 }
 .sec4{
     text-align: center;
@@ -473,4 +431,64 @@ cursor: pointer;
     background-color: var(--black);
 }
 
+/* Sobre Mí */
+.sm-font{
+    background-color: var(--nblack);
+    max-width: 60%;
+    max-height: 100%;
+    margin: 0 auto;
+    border-radius: 30%;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border: 3px solid var(--white);
+    padding-top: 30px;
+}
+.sm-h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    color: var(--red);
+}
+.sm-strong{
+    color: var(--red)
+}
+.sm-header {
+    gap: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sm-txt-leng {
+    max-width: 100%;
+    text-align: center;
+}
+.sm-sep{
+    margin-bottom: 5px;
+}
+.sm-img-c {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sm-img {
+    border-radius: 50%;
+    border: 1px solid var(--red);
+    max-width: 35%;
+}
+.sm-txt-style {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Sevillana', cursive;
+    color: var(--red);
+    /* max-width: 30%; */
+    margin: auto;
+    padding-bottom: 8px;
+}
+/*.SobreMí*/
 
+/*Acerca De*/
+
+
+
+/*.Acerca De*/
