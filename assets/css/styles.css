@@ -166,6 +166,13 @@ img {
     margin: 0 auto;
     margin-top: 15px;
 }
+@media (max-width:768px){
+    .music {
+        width: 80%;
+    }
+}
+
+
 .sec1 {
     width: 500px;
     margin: auto;
