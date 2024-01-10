@@ -174,7 +174,7 @@ img {
 
 
 .sec1 {
-    width: 500px;
+    width: 537px;
     margin: auto;
     margin-top: 30px;
     background-color: var(--nblack);
@@ -194,7 +194,7 @@ img {
     padding:  0 8px;
 }
 .sec2 {
-    width: 500px;
+    width: 537px;
     margin: auto;
     background-color: var(--nblack);
     border-bottom-left-radius: 20px;
@@ -260,14 +260,16 @@ img {
     height: 40%;
 }
 .row {
-    display: flex;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20%;
     padding: 3px;
 }
-.column {
+/* .column {
     flex: 25%;
     padding: 3px;
     flex-wrap: wrap;
-}
+} */
 .column img {
     margin-top: 5px;
 }
