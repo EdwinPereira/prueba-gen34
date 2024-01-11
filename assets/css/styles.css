@@ -544,6 +544,7 @@ img {
 
 
 
+
 @media (max-width:1024px){
     .banner{
         grid-template-columns: 40% 60%;
@@ -558,6 +559,9 @@ img {
     }
     .listProject{
         grid-template-columns: 1fr;
+    }
+    .list {
+        width: 100%;
     }
 }
 
