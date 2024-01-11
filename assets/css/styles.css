@@ -216,6 +216,23 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     padding:  0 8px;
 }
+.h-tecnic {
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sec2 {
     width: 537px;
     margin: auto;
@@ -272,14 +289,13 @@ img {
 .list{
     text-align: center;
     font-weight: bold;
-    border: 2px solid white;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.261);
     border-radius: 15px;
-    padding: 30px 0;
-    padding-bottom: 30px;
-    background-size: cover;
-    width: 30%;
-    margin: 80px auto auto auto;
-    margin-bottom: 30px;
+    padding: 20px 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .hicons {
     vertical-align: text-bottom;
@@ -326,6 +342,7 @@ img {
 }
 .listProject .item img:hover { 
     width: 70%;
+    opacity: 0.5;
 }
 /* .img_project1 {
     width: 350px;
