@@ -380,7 +380,7 @@ img {
     width:400px;
     height:300px;
     border-style: 0;
-    border: 2px solid var(--nblack);
+    border: none;
     border-radius: 15px;
 }
 .contact-form{
