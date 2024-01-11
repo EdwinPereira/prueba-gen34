@@ -204,6 +204,7 @@ img {
     color: var(--nblack);
     border-radius: 3em 1em;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.261);
+    padding-bottom: 30px;
 }
 .sec1-heading {
     text-align: center;
